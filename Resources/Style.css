@@ -1,0 +1,80 @@
+* {
+    font-family: Arial, Verdana, sans-serif;
+    color: rgba(30, 28, 28, 0.916);
+    text-align: center;
+    
+}
+body {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #fefae0;
+    background-image: url(./images/moreleaves.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+#content {
+    overflow: auto;
+}
+#nav, #feature, #footer {
+    margin: 1%;
+}
+.column1, .column2, .column3 {
+    width: 31.3%;
+    float: left;
+    margin: 1%;
+}
+.column3 {
+    margin-right: 0%;
+}
+li {
+    display: inline;
+    padding: 0.5em;
+}
+#nav, #footer {
+    background-color: #efefef;
+    padding: 0.5em 0;
+}
+#feature, .article {
+    height: 10em;
+    margin-bottom: 1em;
+    background-color: #efefef;
+}
+#header {
+    background-color: #606c38;
+
+}
+#nav {
+    background-color: #fefae0;
+}
+#feature {
+    background-color: #283618df;
+    background-image: url(./images/leaves.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+
+}
+#feature p {
+    font-size: 1.2rem;
+}
+.column1 {
+    background-color: #194103dd;
+}
+.column2 {
+    background-color: #49ad5de8;
+}
+.column3 {
+    background-color: #194103dd;
+}
+#footer {
+    background-color: #606c38;
+}
+h1 {
+    font-family: 'CursiveSansBold';
+    font-weight: bold;
+    font-style: italic;
+}
